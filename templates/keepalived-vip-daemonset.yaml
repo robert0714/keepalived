@@ -13,10 +13,7 @@ spec:
   updateStrategy:
     rollingUpdate:
       maxUnavailable: 1
-    type: RollingUpdate
-  selector:
-    matchLabels:
-      app: {{ template "service-loadbalancer.fullname" . }}-vip-manager
+    type: RollingUpdate  
   template:
     metadata:
       labels:
