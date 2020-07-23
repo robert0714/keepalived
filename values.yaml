@@ -31,7 +31,7 @@ keepalivedVIPManager:
   vrid: 56
   image:
     repository: aledbf/kube-keepalived-vip
-    tag: 0.35
+    tag: 0.23
   resources: {}
 #     limits:
 #       cpu: 200m
